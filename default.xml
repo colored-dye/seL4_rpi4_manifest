@@ -1,0 +1,19 @@
+<manifest>
+    <remote name="seL4" fetch="." />
+
+    <default revision="master" remote="seL4" />
+
+    <project name="seL4.git" path="kernel"/>
+
+    <project name="capdl.git" path="projects/capdl"/>
+    <project name="global-components.git" path="projects/global-components"/>
+    <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
+    <project name="projects_libs.git" path="projects/projects_libs"/>
+    <project name="seL4_libs.git" path="projects/seL4_libs"/>
+    <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" />
+    <project name="sel4runtime.git" path="projects/sel4runtime"/>
+    <project name="util_libs.git" path="projects/util_libs"/>
+
+    <project name="seL4_tools.git" path="tools/seL4"/>
+    <project name="camkes-tool.git" path="tools/camkes"/>
+</manifest>
