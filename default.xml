@@ -18,5 +18,5 @@
     <project name="camkes-tool.git" path="tools/camkes"/>
 
     <project name="seL4_rpi4.git" path="seL4_rpi4"/>
-    <project name="seL4_repos_patches.git" path="seL4_repos_patches"/>
+    <project name="seL4_repos_patches.git" path="seL4_repos_patches" revision="main"/>
 </manifest>
